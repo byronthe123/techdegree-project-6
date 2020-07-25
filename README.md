@@ -1,4 +1,4 @@
-# Project 5 - Static Node.js and Express Site
+# Project 6 - Static Node.js and Express Site
 
 This project is a static NodeJS and Express web app that uses Pug (Jade) as the template engine. The project is a portfolio that displays projects which are generated based on a JSON array of project items. **Aiming for exceeds expectations: all bonus requirements completed.** 
 
