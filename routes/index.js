@@ -11,7 +11,7 @@ router.get('/about', (req, res, next) => {
     return res.render('about');
 });
 
-router.get('/project/:id', (req, res) => {
+router.get('/project/:id', (req, res, next) => {
     const {id} = req.params;
     const project = res.locals.projects.filter(project => parseInt(project.id) === parseInt(id))[0];
     console.log(id);
