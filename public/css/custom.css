@@ -1,0 +1,22 @@
+/* Custom CSS */
+
+/* 1: Shadow */
+.thumbnail {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border: solid 4px #fefefe;
+    border-radius: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    line-height: 0; 
+}
+
+/* 2: Transform */
+.thumbnail:hover {
+    transform: scale(1.02, 1.02);
+}
+
+/* 3: Font change */
+h1,h2,h3,h4,h5,p{
+    font-family: 'Bitter', serif;
+}

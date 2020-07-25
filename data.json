@@ -1,0 +1,89 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "To Do Plus",
+            "description": "A to do list app for recording tasks and daily productivity.",
+            "technologies": [
+                "NodeJs",
+                "ReactJS",
+                "MongoDB",
+                "ExpressJS"
+            ],
+            "live_link": "https://todoplus.herokuapp.com/",
+            "github_link": "https://github.com/byronthe123/ToDoPlus",
+            "image_urls": [
+                "/images/project-0/main.png",
+                "/images/project-0/1.png"
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "Train Scheduler",
+            "description": "An train scheduling app that allows users to add trains, their frequency, and first arrival time and see the schedule of upcoming trains. Data is saved to Firebase. The schedule refreshes every 30 seconds. Users must log-in with with a Google or Github account.",
+            "technologies": [
+                "JavaScript", 
+                "CSS", 
+                "HTML", 
+                "jQuery", 
+                "Firebase"
+            ],
+            "live_link": "https://byronthe123.github.io/Train-Scheduler/",
+            "github_link": "https://github.com/byronthe123/Train-Scheduler",
+            "image_urls": [
+                "/images/project-1/main.png", 
+                "/images/project-1/1.png"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Public API Requests",
+            "description": "An app that makes API requests to a random users API and displays the data as cards. Users can also filter by user name",
+            "technologies": [
+                "HTML",
+                "JavaScript",
+                "jQuery"
+            ],
+            "live_link": "https://byronthe123.github.io/techdegree-project-5/",
+            "github_link": "https://github.com/byronthe123/techdegree-project-5",
+            "image_urls": [
+                "/images/project-2/main.png", 
+                "/images/project-2/1.png"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "Phrase Hunter",
+            "description": "A hangman type game that allows users to enter their guesses with the keyboard.",
+            "technologies": [
+                "HTML",
+                "JavaScript",
+                "jQuery"
+            ],
+            "live_link": "https://byronthe123.github.io/techdegree-project-4/",
+            "github_link": "https://github.com/byronthe123/techdegree-project-4/",
+            "image_urls": [
+                "/images/project-3/main.png", 
+                "/images/project-3/1.png"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "Clicky Game",
+            "description": "A MERN app game where the user must click an image only once to increase score. Clicking the same image twice will reset the score.",
+            "technologies": [
+                "NodeJS",
+                "ReactJS",
+                "ExpressJS",
+                "MongoDB"
+            ],
+            "live_link": "https://hidden-falls-96615.herokuapp.com/",
+            "github_link": "https://github.com/byronthe123/ClickyGame",
+            "image_urls": [
+                "/images/project-4/main.png", 
+                "/images/project-4/1.png"
+            ]
+        }
+
+    ]
+}

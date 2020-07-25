@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    h1 Sorry, there was an error!
+    h3= err.status
+    h5= err.message
+    p= err.stack
+    a(href='/')
+        p Click to return home.
