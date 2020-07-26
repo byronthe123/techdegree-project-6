@@ -1,25 +1,29 @@
 {
-  "name": "techdegree-project-6",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/byronthe123/techdegree-project-6.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/byronthe123/techdegree-project-6/issues"
-  },
-  "homepage": "https://github.com/byronthe123/techdegree-project-6#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "path": "^0.12.7",
-    "pug": "^3.0.0"
+    "name": "techdegree-project-6",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "npm install",
+      "postinstall": "node app"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/byronthe123/techdegree-project-6.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/byronthe123/techdegree-project-6/issues"
+    },
+    "homepage": "https://github.com/byronthe123/techdegree-project-6#readme",
+    "dependencies": {
+      "app": "^0.1.0",
+      "express": "^4.17.1",
+      "node": "^14.5.0",
+      "path": "^0.12.7",
+      "pug": "^3.0.0"
+    }
   }
-}
+  
